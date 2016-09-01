@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskComplete</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+   <!--Navbar-->
+<!--    <div class="navbar navbar-inverse navbar-fixed-top">-->
+<!--
+        <div class="container-fluid">
+           <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                <div class="navbar-brand" id="brandnav">TaskComplete</div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right" id="navigation">
+                    <li><a href="#">Urgent Tasks</a></li>
+                    <li><a href="#">Completed Tasks</a></li>
+                    <li><a href="#">On Hold</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+-->
+    <div class="container-fluid">
+       <div class="row" id='titlerow'>
+            <div id="title" class="col-sm-12 titlebox">
+                <h2 class="center-block">What do you want to do today?</h2>
+            </div>
+            <div id="enterItems" class="col-sm-12 titlebox">
+                <!--Items will be entered here via a form-->
+                <form class="form-group">
+                    <input class="form-control center-block" id="taskName" placeholder="Task Name"></input>
+                    <input type='number' class="form-control center-block" id="price" placeholder="Price"></input>
+                    <input class="form-control center-block" id="description" placeholder="Description"></input>
+                    <input class="form-control center-block" id="imageURL" placeholder="imageURL"></input>
+                    <button class="button btn-primary center-block">Add Task</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 taskdiv">
+                <div id="taskList"></div>
+            </div>
+            <div class="com-sm-8 infobox"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>

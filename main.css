@@ -1,0 +1,63 @@
+
+
+.infobox {
+    background-color: whitesmoke;
+    height: 35em;
+}
+
+.taskdiv {
+    background-color: #E3E3E3;
+    height: 35em;
+}
+#titlerow {
+    background-image: url("woodback.jpg");
+    border-bottom: 5px solid black
+}
+
+
+.titlebox{
+    height: 100%;
+}
+
+.red{
+    background-color:red;
+}
+
+.form-control{
+    width: 50%;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 10px black
+}
+.form-inline {
+}
+
+#title {
+    text-align: center;
+    height: 100%;
+    text-shadow: 4px -1px 4px white;
+}
+
+#taskList {
+    background-color: #E3E3E3;
+    margin: 10%;
+    padding: 2%
+}
+
+img{
+    width: 200px;
+}
+a {
+/*    text-shadow: 3px 3px 8px black;*/
+    font-size: 15pt;
+    color: black;
+    transition-property: font-size, color;
+    transition-delay: .1s;
+}
+
+a:hover {
+    width: 100%;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20pt;
+}
